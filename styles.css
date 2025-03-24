@@ -1,0 +1,28 @@
+body {
+    background-color: lightblue;
+    color: darkblue;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+}
+ul a {
+    border: 1px solid darkblue;
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    padding: 20px;
+    margin: 0;
+}
+
+ul a, h1 {
+    border-radius: 10px;
+}
